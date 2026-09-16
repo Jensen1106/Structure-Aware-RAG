@@ -88,4 +88,4 @@ If you use this code or dataset, please cite our paper:
 
 ## License
 
-Code: provided for research and peer-review purposes. Data (MaintQA and the parameter-bound table): CC-BY-4.0.
+Code: MIT (see [LICENSE](LICENSE)). Data (MaintQA splits, page-level corpus extracts, and the parameter-bound table): CC-BY-4.0.
