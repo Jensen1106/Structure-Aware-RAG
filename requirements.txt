@@ -1,0 +1,12 @@
+# Core dependencies
+numpy>=1.24.0
+pymupdf>=1.23.0
+python-docx>=0.8.11
+sentence-transformers>=2.2.0
+dashscope>=1.14.0
+
+# Optional: for LightRAG/KohakuRAG adapters (not required for core experiments)
+# lightrag-hku
+# kohaku-rag
+openai>=1.0.0
+scipy>=1.10.0

@@ -1,0 +1,225 @@
+{
+  "test_set": "test_mil470a_88",
+  "corpus": "/root/autodl-tmp/Ragpro/data/mil470a/mil470a_pages_clean.jsonl",
+  "n_docs": 709,
+  "n_items": 88,
+  "summary": {
+    "Full": {
+      "n": 88,
+      "Exact Match": 0.0,
+      "Partial Match": 0.1686650819660026,
+      "Partial Match CI": [
+        0.13235205550604068,
+        0.20708449466860188
+      ],
+      "Tuple-F1": 0.563191203364391,
+      "Tuple-F1 CI": [
+        0.532800173766824,
+        0.5917866812056578
+      ],
+      "Hallucination Rate": 0.0,
+      "Source Traceability": 0.4965789379065584,
+      "mean_t_retrieve_s": 0.2982530812230173,
+      "mean_t_generate_s": 1.5910754115148764,
+      "R@1": 0.17045454545454544,
+      "R@5": 0.4431818181818182,
+      "R@10": 0.5909090909090909,
+      "MRR@10": 0.2700937950937951,
+      "NDCG@10": 0.34956472804756444
+    },
+    "w/o StdChunk": {
+      "n": 88,
+      "Exact Match": 0.0,
+      "Partial Match": 0.1715795909483834,
+      "Partial Match CI": [
+        0.13801245571615015,
+        0.20596133719250942
+      ],
+      "Tuple-F1": 0.5657002351527098,
+      "Tuple-F1 CI": [
+        0.5349264206799482,
+        0.5939793541697379
+      ],
+      "Hallucination Rate": 0.0,
+      "Source Traceability": 0.5601434275708885,
+      "mean_t_retrieve_s": 0.2951880261495138,
+      "mean_t_generate_s": 1.6114078255936461,
+      "R@1": 0.10227272727272728,
+      "R@5": 0.3409090909090909,
+      "R@10": 0.4659090909090909,
+      "MRR@10": 0.21035353535353532,
+      "NDCG@10": 0.27153718140289473
+    },
+    "w/o CatRetriever": {
+      "n": 88,
+      "Exact Match": 0.0,
+      "Partial Match": 0.14840804708166774,
+      "Partial Match CI": [
+        0.11026671792883452,
+        0.1869128854618704
+      ],
+      "Tuple-F1": 0.5618883033324494,
+      "Tuple-F1 CI": [
+        0.5343432974510774,
+        0.5870286040663679
+      ],
+      "Hallucination Rate": 0.0,
+      "Source Traceability": 0.5439544726619888,
+      "mean_t_retrieve_s": 0.2976610001827463,
+      "mean_t_generate_s": 1.2792031105279669,
+      "R@1": 0.19318181818181818,
+      "R@5": 0.4659090909090909,
+      "R@10": 0.6704545454545454,
+      "MRR@10": 0.30854527417027416,
+      "NDCG@10": 0.39173903987488057
+    },
+    "w/o BoundGrounder": {
+      "n": 88,
+      "Exact Match": 0.0,
+      "Partial Match": 0.09288892945347432,
+      "Partial Match CI": [
+        0.06259515573646036,
+        0.1275623724644313
+      ],
+      "Tuple-F1": 0.5313142154565822,
+      "Tuple-F1 CI": [
+        0.5024159287069319,
+        0.5583265210601017
+      ],
+      "Hallucination Rate": 0.011363636363636364,
+      "Source Traceability": 0.39432906682158464,
+      "mean_t_retrieve_s": 0.29643170259078033,
+      "mean_t_generate_s": 0.7408757385472365,
+      "R@1": 0.17045454545454544,
+      "R@5": 0.4431818181818182,
+      "R@10": 0.5909090909090909,
+      "MRR@10": 0.2700937950937951,
+      "NDCG@10": 0.34956472804756444
+    },
+    "w/o StdChunk+CatRetriever": {
+      "n": 88,
+      "Exact Match": 0.0,
+      "Partial Match": 0.13451886918142555,
+      "Partial Match CI": [
+        0.10470928015040352,
+        0.16643372260068753
+      ],
+      "Tuple-F1": 0.5584319491291861,
+      "Tuple-F1 CI": [
+        0.5373574113438427,
+        0.5785263499578797
+      ],
+      "Hallucination Rate": 0.0,
+      "Source Traceability": 0.5621568007816031,
+      "mean_t_retrieve_s": 0.2955422827230491,
+      "mean_t_generate_s": 1.4171103888934753,
+      "R@1": 0.07954545454545454,
+      "R@5": 0.2727272727272727,
+      "R@10": 0.3977272727272727,
+      "MRR@10": 0.1613546176046176,
+      "NDCG@10": 0.21617136788376143
+    },
+    "w/o StdChunk+BoundGrounder": {
+      "n": 88,
+      "Exact Match": 0.0,
+      "Partial Match": 0.08834310771876351,
+      "Partial Match CI": [
+        0.056199610287361285,
+        0.12340732252145124
+      ],
+      "Tuple-F1": 0.528144286197996,
+      "Tuple-F1 CI": [
+        0.4990454140448707,
+        0.5548931146159691
+      ],
+      "Hallucination Rate": 0.0,
+      "Source Traceability": 0.4253536068766989,
+      "mean_t_retrieve_s": 0.2921652097244408,
+      "mean_t_generate_s": 0.7918295854840174,
+      "R@1": 0.10227272727272728,
+      "R@5": 0.3409090909090909,
+      "R@10": 0.4659090909090909,
+      "MRR@10": 0.21035353535353532,
+      "NDCG@10": 0.27153718140289473
+    },
+    "w/o CatRetriever+BoundGrounder": {
+      "n": 88,
+      "Exact Match": 0.0,
+      "Partial Match": 0.09036517653396287,
+      "Partial Match CI": [
+        0.05840135035940219,
+        0.12183268161029345
+      ],
+      "Tuple-F1": 0.53592044629936,
+      "Tuple-F1 CI": [
+        0.509596938625655,
+        0.5594374999226823
+      ],
+      "Hallucination Rate": 0.0,
+      "Source Traceability": 0.4103934510080189,
+      "mean_t_retrieve_s": 0.29676836400837847,
+      "mean_t_generate_s": 0.7294050721922593,
+      "R@1": 0.19318181818181818,
+      "R@5": 0.4659090909090909,
+      "R@10": 0.6704545454545454,
+      "MRR@10": 0.30854527417027416,
+      "NDCG@10": 0.39173903987488057
+    }
+  },
+  "stats": [
+    {
+      "comparison": "Full vs w/o StdChunk",
+      "tuple_f1_diff": -0.002509031788318934,
+      "tuple_f1_p": 0.5438,
+      "pm_diff": -0.002914508982380798,
+      "pm_p": 0.5526,
+      "hal_diff": 0.0,
+      "hal_p": 1.0
+    },
+    {
+      "comparison": "Full vs w/o CatRetriever",
+      "tuple_f1_diff": 0.0013029000319415688,
+      "tuple_f1_p": 0.4463,
+      "pm_diff": 0.020257034884334883,
+      "pm_p": 0.1326,
+      "hal_diff": 0.0,
+      "hal_p": 1.0
+    },
+    {
+      "comparison": "Full vs w/o BoundGrounder",
+      "tuple_f1_diff": 0.031876987907808754,
+      "tuple_f1_p": 0.016,
+      "pm_diff": 0.07577615251252828,
+      "pm_p": 0.0,
+      "hal_diff": -0.011363636363636364,
+      "hal_p": 1.0
+    },
+    {
+      "comparison": "Full vs w/o StdChunk+CatRetriever",
+      "tuple_f1_diff": 0.00475925423520479,
+      "tuple_f1_p": 0.3561,
+      "pm_diff": 0.03414621278457706,
+      "pm_p": 0.0478,
+      "hal_diff": 0.0,
+      "hal_p": 1.0
+    },
+    {
+      "comparison": "Full vs w/o StdChunk+BoundGrounder",
+      "tuple_f1_diff": 0.03504691716639489,
+      "tuple_f1_p": 0.0527,
+      "pm_diff": 0.0803219742472391,
+      "pm_p": 0.0008,
+      "hal_diff": 0.0,
+      "hal_p": 1.0
+    },
+    {
+      "comparison": "Full vs w/o CatRetriever+BoundGrounder",
+      "tuple_f1_diff": 0.027270757065030946,
+      "tuple_f1_p": 0.0288,
+      "pm_diff": 0.07829990543203973,
+      "pm_p": 0.0,
+      "hal_diff": 0.0,
+      "hal_p": 1.0
+    }
+  ]
+}

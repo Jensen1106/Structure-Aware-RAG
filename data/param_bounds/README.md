@@ -1,0 +1,50 @@
+# Parameter-Bound Table (MIL-HDBK-470A)
+
+Machine-readable engineering parameter-bound table extracted from MIL-HDBK-470A
+(*Designing and Developing Maintainable Products and Systems*, 1997):
+**171 parameters** with unit, observed bound interval, and page-level source
+references.
+
+## Files
+
+| File | Content |
+|---|---|
+| `param_bounds_table.csv` | Final 171-entry table (parameter, unit, lower/upper bound, guideline counts, source pages, example quote) |
+| `param_bounds_table.json` | Same table with full provenance metadata |
+| `extraction_raw.jsonl` / `extraction_raw_v2.jsonl` / `extraction_pages.jsonl` / `extraction_v3.jsonl` | Raw LLM extraction records (three passes: general, page-level, metrics-focused) |
+| `param_bounds_aggregated*.json`, `param_bounds_union.json` | Intermediate aggregation snapshots |
+
+## Construction pipeline
+
+The table was produced with the semi-automatic pipeline described in the paper
+(extraction → filtering → verification):
+
+1. **Extraction** — `scripts/extract_param_bounds.py` scans the 9,014 Appendix C
+   design guidelines and 230 body clauses (plus appendix pages) and asks an LLM
+   (qwen-max, temperature 0, JSON output) to extract every engineering quantity
+   as a (parameter, unit, values, quote) tuple, using the most specific
+   canonical parameter name.
+2. **Rule-based filtering** — unit normalization (unit map + unit families with
+   conversion), range sanity checks (0 < v < 10^7, lower ≤ upper), dropping of
+   section/figure/task numbers and dates.
+3. **Aggregation & curation** — grouping by canonical name and unit family;
+   bounds = observed min/max; near-duplicate merging (token Jaccard);
+   generic-name blacklist; evidence-ranked selection.
+4. **Expert verification** — *pending*: single-observation entries (110 of 171)
+   and the statistical/demonstration entries at the tail of the table should be
+   spot-checked by a domain expert before operational use.
+
+## Units covered
+
+in (73), % (33), min (19), ft (13), h (12), deg (8), psi (4), V (3), count (2),
+ft-lb (2), ratio (1).
+
+## Notes
+
+- 60 parameters are supported by ≥2 guidelines (aggregated bounds); 111 are
+  single-observation (bound = the observed value).
+- The runtime implementation (`src/utils/constraint_taxonomy.py`) ships a
+  high-confidence subset of hand-verified bounds; this table is the complete
+  release artifact backing the paper's Table 3.
+- License: CC-BY-4.0 (consistent with the MaintQA release). The underlying
+  handbook is a public-domain US military standard.

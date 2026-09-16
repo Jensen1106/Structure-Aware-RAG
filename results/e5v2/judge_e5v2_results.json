@@ -1,0 +1,77 @@
+{
+  "judge_model": "qwen-max",
+  "rubric": "v2",
+  "n_items": 88,
+  "summary": {
+    "w/o BoundGrounder": {
+      "abstention_quality": 3.413,
+      "constraint_accuracy": 3.943,
+      "factual_correctness": 3.818,
+      "hallucinates": 0.034,
+      "overall_quality": 3.068,
+      "provides_context": 0.58,
+      "source_grounding": 2.352,
+      "n": 88
+    },
+    "w/o StdChunk+BoundGrounder": {
+      "abstention_quality": 3.568,
+      "constraint_accuracy": 4.102,
+      "factual_correctness": 3.943,
+      "hallucinates": 0.045,
+      "overall_quality": 3.364,
+      "provides_context": 0.636,
+      "source_grounding": 2.818,
+      "n": 88
+    },
+    "w/o CatRetriever+BoundGrounder": {
+      "abstention_quality": 3.431,
+      "constraint_accuracy": 3.932,
+      "factual_correctness": 3.557,
+      "hallucinates": 0.023,
+      "overall_quality": 3.068,
+      "provides_context": 0.557,
+      "source_grounding": 2.42,
+      "n": 88
+    },
+    "w/o CatRetriever": {
+      "abstention_quality": 4.16,
+      "constraint_accuracy": 3.75,
+      "factual_correctness": 3.807,
+      "hallucinates": 0.0,
+      "overall_quality": 3.523,
+      "provides_context": 0.852,
+      "source_grounding": 3.205,
+      "n": 88
+    },
+    "Full": {
+      "abstention_quality": 4.125,
+      "constraint_accuracy": 4.0,
+      "factual_correctness": 3.92,
+      "hallucinates": 0.045,
+      "overall_quality": 3.67,
+      "provides_context": 0.886,
+      "source_grounding": 3.375,
+      "n": 88
+    },
+    "w/o StdChunk": {
+      "abstention_quality": 4.189,
+      "constraint_accuracy": 4.125,
+      "factual_correctness": 3.966,
+      "hallucinates": 0.023,
+      "overall_quality": 3.784,
+      "provides_context": 0.864,
+      "source_grounding": 3.636,
+      "n": 88
+    },
+    "w/o StdChunk+CatRetriever": {
+      "abstention_quality": 4.154,
+      "constraint_accuracy": 3.818,
+      "factual_correctness": 3.716,
+      "hallucinates": 0.011,
+      "overall_quality": 3.386,
+      "provides_context": 0.818,
+      "source_grounding": 3.136,
+      "n": 88
+    }
+  }
+}

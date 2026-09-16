@@ -1,0 +1,1984 @@
+{
+  "n_parameters": 171,
+  "source": "MIL-HDBK-470A (Appendix C guidelines, body clauses, appendix pages)",
+  "pipeline": "LLM extraction (qwen-max) -> rule filtering -> aggregation (scripts/extract_param_bounds.py); pending expert verification",
+  "parameters": [
+    {
+      "parameter": "percentile body dimensions",
+      "unit": "%",
+      "lower": 50.0,
+      "upper": 95.0,
+      "n_mentions": 6,
+      "n_values": 6,
+      "pages": [
+        483,
+        485,
+        574,
+        637,
+        641
+      ]
+    },
+    {
+      "parameter": "percentile body dimension",
+      "unit": "%",
+      "lower": 5.0,
+      "upper": 95.0,
+      "n_mentions": 6,
+      "n_values": 6,
+      "pages": [
+        443,
+        444,
+        667,
+        708,
+        713
+      ]
+    },
+    {
+      "parameter": "durability distance forward of inflight refueling receptacle",
+      "unit": "in",
+      "lower": 36.0,
+      "upper": 36.0,
+      "n_mentions": 5,
+      "n_values": 5,
+      "pages": [
+        517,
+        533,
+        542,
+        571,
+        664
+      ]
+    },
+    {
+      "parameter": "inlet duct edge distance from cockpit or crew station",
+      "unit": "in",
+      "lower": 60.0,
+      "upper": 60.0,
+      "n_mentions": 5,
+      "n_values": 5,
+      "pages": [
+        448,
+        457,
+        473,
+        484,
+        516
+      ]
+    },
+    {
+      "parameter": "low observable (lo) engine face frame distance from first stage fan or compressor blades",
+      "unit": "in",
+      "lower": 10.0,
+      "upper": 10.0,
+      "n_mentions": 4,
+      "n_values": 4,
+      "pages": [
+        448,
+        473,
+        484,
+        516
+      ]
+    },
+    {
+      "parameter": "radius aft of inlet for ground safety pins or streamers exclusion",
+      "unit": "ft",
+      "lower": 3.0,
+      "upper": 3.0,
+      "n_mentions": 4,
+      "n_values": 4,
+      "pages": [
+        448,
+        457,
+        473,
+        484
+      ]
+    },
+    {
+      "parameter": "bit false alarm rate",
+      "unit": "%",
+      "lower": 1.0,
+      "upper": 1.0,
+      "n_mentions": 4,
+      "n_values": 4,
+      "pages": [
+        384,
+        394,
+        412
+      ]
+    },
+    {
+      "parameter": "minimum distance",
+      "unit": "in",
+      "lower": 1.0,
+      "upper": 36.0,
+      "n_mentions": 4,
+      "n_values": 4,
+      "pages": [
+        505,
+        517,
+        542,
+        616
+      ]
+    },
+    {
+      "parameter": "sample size",
+      "unit": "count",
+      "lower": 5.0,
+      "upper": 6860.0,
+      "n_mentions": 4,
+      "n_values": 4,
+      "pages": [
+        166,
+        187,
+        211,
+        212
+      ],
+      "quote": "The sample size required is 20."
+    },
+    {
+      "parameter": "minimum spacing between ground power and servicing interfaces",
+      "unit": "in",
+      "lower": 30.0,
+      "upper": 30.0,
+      "n_mentions": 3,
+      "n_values": 3,
+      "pages": [
+        357,
+        373,
+        611
+      ]
+    },
+    {
+      "parameter": "plumbing and wiring clearance below plate nut channel",
+      "unit": "in",
+      "lower": 1.0,
+      "upper": 1.0,
+      "n_mentions": 3,
+      "n_values": 3,
+      "pages": [
+        429,
+        449,
+        659
+      ]
+    },
+    {
+      "parameter": "minimum angle of intersection in fuel wetted area",
+      "unit": "deg",
+      "lower": 90.0,
+      "upper": 90.0,
+      "n_mentions": 3,
+      "n_values": 3,
+      "pages": [
+        515,
+        525,
+        709
+      ]
+    },
+    {
+      "parameter": "fuselage weapon bays distance from landing gear",
+      "unit": "in",
+      "lower": 18.0,
+      "upper": 18.0,
+      "n_mentions": 3,
+      "n_values": 3,
+      "pages": [
+        354,
+        539,
+        622
+      ]
+    },
+    {
+      "parameter": "single drive belt replacement time",
+      "unit": "min",
+      "lower": 30.0,
+      "upper": 30.0,
+      "n_mentions": 3,
+      "n_values": 3,
+      "pages": [
+        355,
+        445,
+        601
+      ]
+    },
+    {
+      "parameter": "wheel ground height off ground",
+      "unit": "in",
+      "lower": 2.0,
+      "upper": 2.0,
+      "n_mentions": 3,
+      "n_values": 3,
+      "pages": [
+        485,
+        517,
+        542
+      ]
+    },
+    {
+      "parameter": "lo engine face frame distance",
+      "unit": "in",
+      "lower": 10.0,
+      "upper": 10.0,
+      "n_mentions": 3,
+      "n_values": 3,
+      "pages": [
+        357,
+        389,
+        417
+      ]
+    },
+    {
+      "parameter": "ammo loader interface height",
+      "unit": "in",
+      "lower": 50.0,
+      "upper": 50.0,
+      "n_mentions": 3,
+      "n_values": 3,
+      "pages": [
+        359,
+        649,
+        686
+      ]
+    },
+    {
+      "parameter": "accessibility percentile",
+      "unit": "%",
+      "lower": 50.0,
+      "upper": 75.0,
+      "n_mentions": 3,
+      "n_values": 3,
+      "pages": [
+        679,
+        682,
+        683
+      ]
+    },
+    {
+      "parameter": "minimum clearance",
+      "unit": "in",
+      "lower": 1.0,
+      "upper": 1.0,
+      "n_mentions": 3,
+      "n_values": 3,
+      "pages": [
+        364,
+        387,
+        698
+      ]
+    },
+    {
+      "parameter": "mttr",
+      "unit": "min",
+      "lower": 30.0,
+      "upper": 60.0,
+      "n_mentions": 3,
+      "n_values": 3,
+      "pages": [
+        386,
+        571
+      ]
+    },
+    {
+      "parameter": "minimum distance below plate nut channel to plumbing, wiring, ducts, and connectors",
+      "unit": "in",
+      "lower": 1.0,
+      "upper": 1.0,
+      "n_mentions": 2,
+      "n_values": 2,
+      "pages": [
+        505,
+        543
+      ]
+    },
+    {
+      "parameter": "low observable engine face frames to first stage fan or compressor blades distance",
+      "unit": "in",
+      "lower": 10.0,
+      "upper": 10.0,
+      "n_mentions": 2,
+      "n_values": 2,
+      "pages": [
+        457,
+        550
+      ]
+    },
+    {
+      "parameter": "minimum distance from outer surface for plumbing, wiring, ducts, and connectors",
+      "unit": "in",
+      "lower": 1.0,
+      "upper": 1.0,
+      "n_mentions": 2,
+      "n_values": 2,
+      "pages": [
+        486,
+        518
+      ]
+    },
+    {
+      "parameter": "percentage of openings plugged for auxiliary air inlets and exits functionality",
+      "unit": "%",
+      "lower": 25.0,
+      "upper": 25.0,
+      "n_mentions": 2,
+      "n_values": 2,
+      "pages": [
+        485,
+        550
+      ]
+    },
+    {
+      "parameter": "fuselage lower shear moldline height above ground for external weapons",
+      "unit": "in",
+      "lower": 38.0,
+      "upper": 38.0,
+      "n_mentions": 2,
+      "n_values": 2,
+      "pages": [
+        361,
+        510
+      ]
+    },
+    {
+      "parameter": "low observable engine face frame to first stage fan distance",
+      "unit": "in",
+      "lower": 10.0,
+      "upper": 10.0,
+      "n_mentions": 2,
+      "n_values": 2,
+      "pages": [
+        357,
+        645
+      ]
+    },
+    {
+      "parameter": "maximum distance from edge of access opening to wetted area",
+      "unit": "in",
+      "lower": 18.0,
+      "upper": 18.0,
+      "n_mentions": 2,
+      "n_values": 2,
+      "pages": [
+        515,
+        542
+      ]
+    },
+    {
+      "parameter": "cosmetic type repairs time including cure or drying times",
+      "unit": "h",
+      "lower": 1.0,
+      "upper": 1.0,
+      "n_mentions": 2,
+      "n_values": 2,
+      "pages": [
+        485,
+        550
+      ]
+    },
+    {
+      "parameter": "cosmetic repair time including cure or drying times",
+      "unit": "h",
+      "lower": 1.0,
+      "upper": 1.0,
+      "n_mentions": 2,
+      "n_values": 2,
+      "pages": [
+        470,
+        517
+      ]
+    },
+    {
+      "parameter": "distance from first stage fan or compressor blades",
+      "unit": "in",
+      "lower": 10.0,
+      "upper": 10.0,
+      "n_mentions": 2,
+      "n_values": 2,
+      "pages": [
+        457,
+        550
+      ]
+    },
+    {
+      "parameter": "fuselage lower shear moldline height above ground",
+      "unit": "in",
+      "lower": 38.0,
+      "upper": 38.0,
+      "n_mentions": 2,
+      "n_values": 2,
+      "pages": [
+        354,
+        530
+      ]
+    },
+    {
+      "parameter": "electrical connector water pressure resistance",
+      "unit": "psi",
+      "lower": 120.0,
+      "upper": 120.0,
+      "n_mentions": 2,
+      "n_values": 2,
+      "pages": [
+        423,
+        430
+      ]
+    },
+    {
+      "parameter": "minimum clearance between engine and airframe",
+      "unit": "in",
+      "lower": 1.0,
+      "upper": 1.0,
+      "n_mentions": 2,
+      "n_values": 2,
+      "pages": [
+        356,
+        482
+      ]
+    },
+    {
+      "parameter": "minimum hand tool arc for multiple connectors",
+      "unit": "deg",
+      "lower": 120.0,
+      "upper": 120.0,
+      "n_mentions": 2,
+      "n_values": 2,
+      "pages": [
+        505,
+        518
+      ]
+    },
+    {
+      "parameter": "ground power and servicing interface spacing",
+      "unit": "in",
+      "lower": 30.0,
+      "upper": 30.0,
+      "n_mentions": 2,
+      "n_values": 2,
+      "pages": [
+        648,
+        657
+      ]
+    },
+    {
+      "parameter": "static charge buildup for optics and windows",
+      "unit": "v",
+      "lower": 10000.0,
+      "upper": 10000.0,
+      "n_mentions": 2,
+      "n_values": 2,
+      "pages": [
+        509,
+        522
+      ]
+    },
+    {
+      "parameter": "ammo loader interface height above ground",
+      "unit": "in",
+      "lower": 50.0,
+      "upper": 50.0,
+      "n_mentions": 2,
+      "n_values": 2,
+      "pages": [
+        375,
+        649
+      ]
+    },
+    {
+      "parameter": "minimum distance below plate nut channel",
+      "unit": "in",
+      "lower": 1.0,
+      "upper": 1.0,
+      "n_mentions": 2,
+      "n_values": 2,
+      "pages": [
+        381,
+        449
+      ]
+    },
+    {
+      "parameter": "design goal low velocity impact energy",
+      "unit": "ft-lb",
+      "lower": 30.0,
+      "upper": 30.0,
+      "n_mentions": 2,
+      "n_values": 2,
+      "pages": [
+        388,
+        680
+      ]
+    },
+    {
+      "parameter": "maximum percentage of openings plugged",
+      "unit": "%",
+      "lower": 25.0,
+      "upper": 25.0,
+      "n_mentions": 2,
+      "n_values": 2,
+      "pages": [
+        470,
+        542
+      ]
+    },
+    {
+      "parameter": "radome diameter and length combined",
+      "unit": "in",
+      "lower": 60.0,
+      "upper": 60.0,
+      "n_mentions": 2,
+      "n_values": 2,
+      "pages": [
+        572,
+        660
+      ]
+    },
+    {
+      "parameter": "safe/arm status visibility distance",
+      "unit": "ft",
+      "lower": 20.0,
+      "upper": 20.0,
+      "n_mentions": 2,
+      "n_values": 2,
+      "pages": [
+        591,
+        598
+      ]
+    },
+    {
+      "parameter": "minimum distance from landing gear",
+      "unit": "in",
+      "lower": 18.0,
+      "upper": 18.0,
+      "n_mentions": 2,
+      "n_values": 2,
+      "pages": [
+        354,
+        510
+      ]
+    },
+    {
+      "parameter": "minimum spacing between interfaces",
+      "unit": "in",
+      "lower": 30.0,
+      "upper": 30.0,
+      "n_mentions": 2,
+      "n_values": 2,
+      "pages": [
+        357,
+        611
+      ]
+    },
+    {
+      "parameter": "mean corrective maintenance time",
+      "unit": "min",
+      "lower": 30.0,
+      "upper": 40.0,
+      "n_mentions": 2,
+      "n_values": 2,
+      "pages": [
+        140,
+        159
+      ]
+    },
+    {
+      "parameter": "lo screen plugging percentage",
+      "unit": "%",
+      "lower": 25.0,
+      "upper": 25.0,
+      "n_mentions": 2,
+      "n_values": 2,
+      "pages": [
+        497
+      ]
+    },
+    {
+      "parameter": "clearance from inner surface",
+      "unit": "in",
+      "lower": 1.0,
+      "upper": 1.0,
+      "n_mentions": 2,
+      "n_values": 2,
+      "pages": [
+        429,
+        659
+      ]
+    },
+    {
+      "parameter": "bit failure isolation rate",
+      "unit": "%",
+      "lower": 99.0,
+      "upper": 99.0,
+      "n_mentions": 2,
+      "n_values": 2,
+      "pages": [
+        376,
+        682
+      ]
+    },
+    {
+      "parameter": "inlet duct edge distance",
+      "unit": "in",
+      "lower": 60.0,
+      "upper": 60.0,
+      "n_mentions": 2,
+      "n_values": 2,
+      "pages": [
+        380,
+        497
+      ]
+    },
+    {
+      "parameter": "diameter and length sum",
+      "unit": "in",
+      "lower": 60.0,
+      "upper": 60.0,
+      "n_mentions": 2,
+      "n_values": 2,
+      "pages": [
+        361,
+        390
+      ]
+    },
+    {
+      "parameter": "minimum hand tool arc",
+      "unit": "deg",
+      "lower": 120.0,
+      "upper": 120.0,
+      "n_mentions": 2,
+      "n_values": 2,
+      "pages": [
+        374,
+        381
+      ]
+    },
+    {
+      "parameter": "minimum passage width",
+      "unit": "in",
+      "lower": 30.0,
+      "upper": 30.0,
+      "n_mentions": 2,
+      "n_values": 2,
+      "pages": [
+        367
+      ]
+    },
+    {
+      "parameter": "static charge buildup",
+      "unit": "v",
+      "lower": 10000.0,
+      "upper": 10000.0,
+      "n_mentions": 2,
+      "n_values": 2,
+      "pages": [
+        509,
+        573
+      ]
+    },
+    {
+      "parameter": "cosmetic repair time",
+      "unit": "h",
+      "lower": 1.0,
+      "upper": 1.0,
+      "n_mentions": 2,
+      "n_values": 2,
+      "pages": [
+        421,
+        550
+      ]
+    },
+    {
+      "parameter": "percentile male hand",
+      "unit": "%",
+      "lower": 75.0,
+      "upper": 75.0,
+      "n_mentions": 2,
+      "n_values": 2,
+      "pages": [
+        547,
+        559
+      ]
+    },
+    {
+      "parameter": "fastener diameter",
+      "unit": "in",
+      "lower": 0.25,
+      "upper": 0.25,
+      "n_mentions": 2,
+      "n_values": 2,
+      "pages": [
+        475,
+        520
+      ]
+    },
+    {
+      "parameter": "replacement time",
+      "unit": "min",
+      "lower": 30.0,
+      "upper": 30.0,
+      "n_mentions": 2,
+      "n_values": 2,
+      "pages": [
+        426
+      ]
+    },
+    {
+      "parameter": "minimum angle",
+      "unit": "deg",
+      "lower": 90.0,
+      "upper": 90.0,
+      "n_mentions": 2,
+      "n_values": 2,
+      "pages": [
+        356,
+        360
+      ]
+    },
+    {
+      "parameter": "radome size",
+      "unit": "in",
+      "lower": 60.0,
+      "upper": 60.0,
+      "n_mentions": 2,
+      "n_values": 2,
+      "pages": [
+        430,
+        520
+      ]
+    },
+    {
+      "parameter": "repair time",
+      "unit": "h",
+      "lower": 1.0,
+      "upper": 1.0,
+      "n_mentions": 2,
+      "n_values": 2,
+      "pages": [
+        421,
+        526
+      ]
+    },
+    {
+      "parameter": "small exterior storage bays or compartments location at chest height of 50th-percentile male",
+      "unit": "%",
+      "lower": 50.0,
+      "upper": 50.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        540
+      ]
+    },
+    {
+      "parameter": "minimum clearance for positioning jack with tire ruptured and wheel ground off",
+      "unit": "in",
+      "lower": 6.5,
+      "upper": 6.5,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        485
+      ]
+    },
+    {
+      "parameter": "minimum distance forward of inflight refueling receptacle for high durability",
+      "unit": "in",
+      "lower": 36.0,
+      "upper": 36.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        485
+      ]
+    },
+    {
+      "parameter": "fuselage weapon bays distance from nose landing gear and main landing gear",
+      "unit": "in",
+      "lower": 18.0,
+      "upper": 18.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        539
+      ]
+    },
+    {
+      "parameter": "maximum distance from fuel cell or tank access door edge to wetted area",
+      "unit": "in",
+      "lower": 18.0,
+      "upper": 18.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        483
+      ]
+    },
+    {
+      "parameter": "percentage of access panels requiring more than 4 fasteners per side",
+      "unit": "%",
+      "lower": 15.0,
+      "upper": 15.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        89
+      ]
+    },
+    {
+      "parameter": "plumbing, wiring, ducts, and connectors distance from inner surface",
+      "unit": "in",
+      "lower": 1.0,
+      "upper": 1.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        535
+      ]
+    },
+    {
+      "parameter": "standard deviation of chargeable maintenance downtime per flight",
+      "unit": "h",
+      "lower": 1.0,
+      "upper": 1.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        175
+      ]
+    },
+    {
+      "parameter": "water pressure for electrical connector environmental protection",
+      "unit": "psi",
+      "lower": 120.0,
+      "upper": 120.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        632
+      ]
+    },
+    {
+      "parameter": "engine-to-airframe clearance including removal and installation",
+      "unit": "in",
+      "lower": 1.0,
+      "upper": 1.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        446
+      ]
+    },
+    {
+      "parameter": "engine-to-firewall distance for 75 percentile male hand access",
+      "unit": "in",
+      "lower": 1.0,
+      "upper": 1.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        451
+      ]
+    },
+    {
+      "parameter": "pulleys and brackets accessibility by 75 percentile male hand",
+      "unit": "%",
+      "lower": 100.0,
+      "upper": 100.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        443
+      ]
+    },
+    {
+      "parameter": "fuel cell and tank access door maximum wetted area distance",
+      "unit": "in",
+      "lower": 18.0,
+      "upper": 18.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        357
+      ]
+    },
+    {
+      "parameter": "identification, markings, cautions, and directions coverage",
+      "unit": "deg",
+      "lower": 360.0,
+      "upper": 360.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        676
+      ]
+    },
+    {
+      "parameter": "radius around inlet for no ground safety pins or streamers",
+      "unit": "ft",
+      "lower": 3.0,
+      "upper": 3.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        516
+      ]
+    },
+    {
+      "parameter": "walkway areas durability for personnel up to 95 percentile",
+      "unit": "%",
+      "lower": 95.0,
+      "upper": 95.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        550
+      ]
+    },
+    {
+      "parameter": "maximum corrective maintenance time for the φ percentile",
+      "unit": "h",
+      "lower": 1.0,
+      "upper": 1.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        285
+      ]
+    },
+    {
+      "parameter": "storage bay height for 50 percentile male chest height",
+      "unit": "in",
+      "lower": 42.0,
+      "upper": 42.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        362
+      ]
+    },
+    {
+      "parameter": "walkway areas durability for 95th-percentile personnel",
+      "unit": "%",
+      "lower": 95.0,
+      "upper": 95.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        534
+      ]
+    },
+    {
+      "parameter": "durable area forward of inflight refueling receptacle",
+      "unit": "in",
+      "lower": 36.0,
+      "upper": 36.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        645
+      ]
+    },
+    {
+      "parameter": "fuselage lower shear moldline height external weapons",
+      "unit": "in",
+      "lower": 38.0,
+      "upper": 38.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        681
+      ]
+    },
+    {
+      "parameter": "spark plugs, glo-plugs, and igniters replacement time",
+      "unit": "min",
+      "lower": 30.0,
+      "upper": 30.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        451
+      ]
+    },
+    {
+      "parameter": "spark plug, glo-plug, and igniter replacement time",
+      "unit": "min",
+      "lower": 30.0,
+      "upper": 30.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        481
+      ]
+    },
+    {
+      "parameter": "periodic and initiated bit failure isolation rate",
+      "unit": "%",
+      "lower": 99.0,
+      "upper": 99.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        682
+      ]
+    },
+    {
+      "parameter": "plumbing and wiring distance from outer surface",
+      "unit": "in",
+      "lower": 1.0,
+      "upper": 1.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        498
+      ]
+    },
+    {
+      "parameter": "drift angle indicator remove and replace time",
+      "unit": "h",
+      "lower": 0.5,
+      "upper": 0.5,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        144
+      ]
+    },
+    {
+      "parameter": "plumbing and wiring to inner surface distance",
+      "unit": "in",
+      "lower": 1.0,
+      "upper": 1.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        608
+      ]
+    },
+    {
+      "parameter": "percentage of openings plugged in lo screens",
+      "unit": "%",
+      "lower": 25.0,
+      "upper": 25.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        714
+      ]
+    },
+    {
+      "parameter": "engine cavity structure fire endurance time",
+      "unit": "min",
+      "lower": 10.0,
+      "upper": 10.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        601
+      ]
+    },
+    {
+      "parameter": "weapon and store loading percentile range",
+      "unit": "%",
+      "lower": 5.0,
+      "upper": 5.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        596
+      ]
+    },
+    {
+      "parameter": "wheel ground clearance with tire ruptured",
+      "unit": "in",
+      "lower": 2.0,
+      "upper": 2.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        526
+      ]
+    },
+    {
+      "parameter": "safety pin exclusion radius aft of inlet",
+      "unit": "ft",
+      "lower": 3.0,
+      "upper": 3.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        648
+      ]
+    },
+    {
+      "parameter": "minimum diameter of structural fastener",
+      "unit": "in",
+      "lower": 0.25,
+      "upper": 0.25,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        546
+      ]
+    },
+    {
+      "parameter": "plumbing to plate nut channel clearance",
+      "unit": "in",
+      "lower": 1.0,
+      "upper": 1.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        390
+      ]
+    },
+    {
+      "parameter": "safe/arm status discernibility distance",
+      "unit": "ft",
+      "lower": 20.0,
+      "upper": 20.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        560
+      ]
+    },
+    {
+      "parameter": "emergency equipment storage bay height",
+      "unit": "in",
+      "lower": 42.0,
+      "upper": 42.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        652
+      ]
+    },
+    {
+      "parameter": "plumbing to plate nut channel distance",
+      "unit": "in",
+      "lower": 1.0,
+      "upper": 1.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        381
+      ]
+    },
+    {
+      "parameter": "distance from cockpit or crew station",
+      "unit": "in",
+      "lower": 60.0,
+      "upper": 60.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        457
+      ]
+    },
+    {
+      "parameter": "engine cavity structure fire duration",
+      "unit": "min",
+      "lower": 10.0,
+      "upper": 10.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        469
+      ]
+    },
+    {
+      "parameter": "critical maintenance time percentile",
+      "unit": "%",
+      "lower": 40.0,
+      "upper": 40.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        166
+      ]
+    },
+    {
+      "parameter": "diameter and length of large radomes",
+      "unit": "in",
+      "lower": 60.0,
+      "upper": 60.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        520
+      ]
+    },
+    {
+      "parameter": "distance between engine and firewall",
+      "unit": "in",
+      "lower": 75.0,
+      "upper": 75.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        606
+      ]
+    },
+    {
+      "parameter": "distance for external cue visibility",
+      "unit": "ft",
+      "lower": 20.0,
+      "upper": 20.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        535
+      ]
+    },
+    {
+      "parameter": "distance from nose/main landing gear",
+      "unit": "in",
+      "lower": 18.0,
+      "upper": 18.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        479
+      ]
+    },
+    {
+      "parameter": "fuselage lower shear moldline height",
+      "unit": "in",
+      "lower": 38.0,
+      "upper": 38.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        354
+      ]
+    },
+    {
+      "parameter": "maximum distance from access opening",
+      "unit": "in",
+      "lower": 18.0,
+      "upper": 18.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        357
+      ]
+    },
+    {
+      "parameter": "safe/arm status discernible distance",
+      "unit": "ft",
+      "lower": 20.0,
+      "upper": 20.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        535
+      ]
+    },
+    {
+      "parameter": "fuel wetted area intersection angle",
+      "unit": "deg",
+      "lower": 90.0,
+      "upper": 90.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        483
+      ]
+    },
+    {
+      "parameter": "inlet duct edge to cockpit distance",
+      "unit": "in",
+      "lower": 60.0,
+      "upper": 60.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        380
+      ]
+    },
+    {
+      "parameter": "ground safety pin exclusion radius",
+      "unit": "ft",
+      "lower": 3.0,
+      "upper": 3.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        389
+      ]
+    },
+    {
+      "parameter": "95th percentile maintenance time",
+      "unit": "h",
+      "lower": 2.0,
+      "upper": 2.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        161
+      ]
+    },
+    {
+      "parameter": "engine assembly replacement time",
+      "unit": "min",
+      "lower": 30.0,
+      "upper": 30.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        445
+      ]
+    },
+    {
+      "parameter": "maximum value of 95th percentile",
+      "unit": "min",
+      "lower": 60.0,
+      "upper": 60.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        179
+      ]
+    },
+    {
+      "parameter": "walkway durability for personnel",
+      "unit": "%",
+      "lower": 95.0,
+      "upper": 95.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        550
+      ]
+    },
+    {
+      "parameter": "mttr for drive belt replacement",
+      "unit": "min",
+      "lower": 30.0,
+      "upper": 30.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        426
+      ]
+    },
+    {
+      "parameter": "mttr for spark plug replacement",
+      "unit": "min",
+      "lower": 30.0,
+      "upper": 30.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        426
+      ]
+    },
+    {
+      "parameter": "maintenance man-hours per task",
+      "unit": "min",
+      "lower": 0.73,
+      "upper": 0.73,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        240
+      ],
+      "quote": "Total Time 0.73"
+    },
+    {
+      "parameter": "viewability and accessibility",
+      "unit": "%",
+      "lower": 100.0,
+      "upper": 100.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        507
+      ]
+    },
+    {
+      "parameter": "cable viewability percentage",
+      "unit": "%",
+      "lower": 100.0,
+      "upper": 100.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        711
+      ]
+    },
+    {
+      "parameter": "engine-to-airframe clearance",
+      "unit": "in",
+      "lower": 1.0,
+      "upper": 1.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        387
+      ]
+    },
+    {
+      "parameter": "structural fastener diameter",
+      "unit": "in",
+      "lower": 0.25,
+      "upper": 0.25,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        361
+      ]
+    },
+    {
+      "parameter": "engine-to-firewall distance",
+      "unit": "in",
+      "lower": 75.0,
+      "upper": 75.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        355
+      ]
+    },
+    {
+      "parameter": "plugged openings percentage",
+      "unit": "%",
+      "lower": 25.0,
+      "upper": 25.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        526
+      ]
+    },
+    {
+      "parameter": "radome diameter plus length",
+      "unit": "in",
+      "lower": 60.0,
+      "upper": 60.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        390
+      ]
+    },
+    {
+      "parameter": "spark plug replacement time",
+      "unit": "min",
+      "lower": 30.0,
+      "upper": 30.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        386
+      ]
+    },
+    {
+      "parameter": "cosmetic type repairs time",
+      "unit": "h",
+      "lower": 1.0,
+      "upper": 1.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        526
+      ]
+    },
+    {
+      "parameter": "demonstration success rate",
+      "unit": "%",
+      "lower": 100.0,
+      "upper": 100.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        199
+      ]
+    },
+    {
+      "parameter": "fault isolation resolution",
+      "unit": "%",
+      "lower": 100.0,
+      "upper": 100.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        229
+      ]
+    },
+    {
+      "parameter": "critical maintenance time",
+      "unit": "min",
+      "lower": 30.0,
+      "upper": 30.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        163
+      ]
+    },
+    {
+      "parameter": "delay downtime per flight",
+      "unit": "h",
+      "lower": 1.0,
+      "upper": 1.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        172
+      ]
+    },
+    {
+      "parameter": "demonstration sample size",
+      "unit": "count",
+      "lower": 200.0,
+      "upper": 200.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        145
+      ],
+      "quote": "200 sample tasks, or 4 x 50, should be available"
+    },
+    {
+      "parameter": "distance from engine face",
+      "unit": "in",
+      "lower": 10.0,
+      "upper": 10.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        473
+      ]
+    },
+    {
+      "parameter": "water pressure resistance",
+      "unit": "psi",
+      "lower": 120.0,
+      "upper": 120.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        437
+      ]
+    },
+    {
+      "parameter": "identification coverage",
+      "unit": "deg",
+      "lower": 360.0,
+      "upper": 360.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        429
+      ]
+    },
+    {
+      "parameter": "percentile gloved hand",
+      "unit": "%",
+      "lower": 95.0,
+      "upper": 95.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        560
+      ]
+    },
+    {
+      "parameter": "wheel ground clearance",
+      "unit": "in",
+      "lower": 2.0,
+      "upper": 2.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        533
+      ]
+    },
+    {
+      "parameter": "95th percentile value",
+      "unit": "ratio",
+      "lower": 3.0,
+      "upper": 3.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        177
+      ],
+      "quote": "The ratio of the 95th percentile maximum value to the value of the mean must be less than three"
+    },
+    {
+      "parameter": "belt replacement time",
+      "unit": "min",
+      "lower": 30.0,
+      "upper": 30.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        606
+      ]
+    },
+    {
+      "parameter": "distance from cockpit",
+      "unit": "in",
+      "lower": 60.0,
+      "upper": 60.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        473
+      ]
+    },
+    {
+      "parameter": "distance from surface",
+      "unit": "in",
+      "lower": 1.0,
+      "upper": 1.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        518
+      ]
+    },
+    {
+      "parameter": "external cue distance",
+      "unit": "ft",
+      "lower": 20.0,
+      "upper": 20.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        591
+      ]
+    },
+    {
+      "parameter": "weapon bay door width",
+      "unit": "in",
+      "lower": 22.0,
+      "upper": 22.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        354
+      ]
+    },
+    {
+      "parameter": "discernible distance",
+      "unit": "ft",
+      "lower": 20.0,
+      "upper": 20.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        390
+      ]
+    },
+    {
+      "parameter": "identification angle",
+      "unit": "deg",
+      "lower": 360.0,
+      "upper": 360.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        457
+      ]
+    },
+    {
+      "parameter": "mttr for component d",
+      "unit": "h",
+      "lower": 6.0,
+      "upper": 6.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        93
+      ]
+    },
+    {
+      "parameter": "personnel percentile",
+      "unit": "%",
+      "lower": 95.0,
+      "upper": 95.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        534
+      ]
+    },
+    {
+      "parameter": "durability distance",
+      "unit": "in",
+      "lower": 36.0,
+      "upper": 36.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        664
+      ]
+    },
+    {
+      "parameter": "inlet safety radius",
+      "unit": "ft",
+      "lower": 3.0,
+      "upper": 3.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        657
+      ]
+    },
+    {
+      "parameter": "radius aft of inlet",
+      "unit": "ft",
+      "lower": 3.0,
+      "upper": 3.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        457
+      ]
+    },
+    {
+      "parameter": "personnel spectrum",
+      "unit": "%",
+      "lower": 95.0,
+      "upper": 95.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        685
+      ]
+    },
+    {
+      "parameter": "plumbing clearance",
+      "unit": "in",
+      "lower": 1.0,
+      "upper": 1.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        498
+      ]
+    },
+    {
+      "parameter": "access clearance",
+      "unit": "in",
+      "lower": 5.0,
+      "upper": 5.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        369
+      ]
+    },
+    {
+      "parameter": "cable visibility",
+      "unit": "%",
+      "lower": 100.0,
+      "upper": 100.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        554
+      ]
+    },
+    {
+      "parameter": "confidence level",
+      "unit": "%",
+      "lower": 90.0,
+      "upper": 90.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        190
+      ],
+      "quote": "The plan holds the confidence level at 75% or 90% as may be desired"
+    },
+    {
+      "parameter": "door sill height",
+      "unit": "in",
+      "lower": 18.0,
+      "upper": 18.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        511
+      ]
+    },
+    {
+      "parameter": "ground clearance",
+      "unit": "in",
+      "lower": 2.0,
+      "upper": 2.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        517
+      ]
+    },
+    {
+      "parameter": "maintenance time",
+      "unit": "min",
+      "lower": 30.0,
+      "upper": 30.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        156
+      ],
+      "quote": "H0: Mean = µ0 (Equation B-2) H1: Mean = µ1, (µ1> µ0)"
+    },
+    {
+      "parameter": "maximum distance",
+      "unit": "in",
+      "lower": 18.0,
+      "upper": 18.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        364
+      ]
+    },
+    {
+      "parameter": "maximum downtime",
+      "unit": "min",
+      "lower": 100.0,
+      "upper": 100.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        138
+      ]
+    },
+    {
+      "parameter": "opening blockage",
+      "unit": "%",
+      "lower": 25.0,
+      "upper": 25.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        421
+      ]
+    },
+    {
+      "parameter": "percentile range",
+      "unit": "%",
+      "lower": 95.0,
+      "upper": 95.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        359
+      ]
+    },
+    {
+      "parameter": "percentile value",
+      "unit": "h",
+      "lower": 2.0,
+      "upper": 2.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        160
+      ],
+      "quote": "H1: 95th percentile = XP = X.05 = T1 = 2 hours"
+    },
+    {
+      "parameter": "plugged openings",
+      "unit": "%",
+      "lower": 25.0,
+      "upper": 25.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        508
+      ]
+    },
+    {
+      "parameter": "viewing distance",
+      "unit": "ft",
+      "lower": 20.0,
+      "upper": 20.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        686
+      ]
+    },
+    {
+      "parameter": "water pressure",
+      "unit": "psi",
+      "lower": 120.0,
+      "upper": 120.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        437
+      ]
+    },
+    {
+      "parameter": "effectiveness",
+      "unit": "%",
+      "lower": 100.0,
+      "upper": 100.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        507
+      ]
+    },
+    {
+      "parameter": "fire duration",
+      "unit": "min",
+      "lower": 10.0,
+      "upper": 10.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        455
+      ]
+    },
+    {
+      "parameter": "impact energy",
+      "unit": "ft-lb",
+      "lower": 30.0,
+      "upper": 30.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        448
+      ]
+    },
+    {
+      "parameter": "static charge",
+      "unit": "v",
+      "lower": 10000.0,
+      "upper": 10000.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        522
+      ]
+    },
+    {
+      "parameter": "chest height",
+      "unit": "in",
+      "lower": 42.0,
+      "upper": 42.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        511
+      ]
+    },
+    {
+      "parameter": "mtbf",
+      "unit": "h",
+      "lower": 200.0,
+      "upper": 200.0,
+      "n_mentions": 1,
+      "n_values": 1,
+      "pages": [
+        142
+      ],
+      "quote": "50 samples from an item with an MTBF of 200 hours"
+    }
+  ]
+}
