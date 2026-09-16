@@ -26,8 +26,7 @@ structstd_rag/
 │   ├── maintqa/        # MaintQA benchmark dataset (MIL-HDBK-470A splits)
 │   ├── mil470a/        # MIL-HDBK-470A page-level corpus (JSONL)
 │   ├── milstd1472f/    # MIL-STD-1472F page-level corpus (JSONL)
-│   └── param_bounds/   # 171-parameter bound table + extraction pipeline artifacts
-├── results/            # Result artifacts backing the paper's tables (e5v2, s7_scaling)
+│   └── param_bounds/   # 171-parameter bound table (final release version)
 ├── README.md
 └── requirements.txt
 ```
@@ -75,8 +74,7 @@ The following artifacts were added in the revised version:
 - `experiments/run_e5_ablation_v2.py` — expanded seven-configuration ablation (full + three single-module + three pairwise removals) with multi-metric evaluation and paired bootstrap tests; supersedes the original `run_e5_ablation.py`. Backs the revised ablation table and Fig. 6.
 - `experiments/judge_e5v2.py` (+ `experiments/run_llm_judge_v2.py`) — blind Qwen-Max LLM-as-Judge re-evaluation of the seven ablation configurations (v2 rubric).
 - `experiments/run_s7_scaling.py` — corpus-scaling measurements (25/50/75/100% of MIL-HDBK-470A: chunks, indexing time, retrieval latency, index memory). Backs the scaling table in Section 5.8.
-- `scripts/extract_param_bounds.py` + `data/param_bounds/` — the complete **171-parameter bound table** (`param_bounds_table.csv`), extracted from MIL-HDBK-470A via the semi-automatic pipeline (LLM extraction → rule-based filtering → aggregation; see `data/param_bounds/README.md`), together with raw extraction records.
-- `results/e5v2/`, `results/s7_scaling/` — result artifacts backing the revised tables.
+- `scripts/extract_param_bounds.py` + `data/param_bounds/` — the complete **171-parameter bound table** (`param_bounds_table.csv`), extracted from MIL-HDBK-470A via the semi-automatic pipeline (LLM extraction → rule-based filtering → aggregation; see `data/param_bounds/README.md`).
 
 ## Citation
 
