@@ -49,7 +49,7 @@ python quickstart.py
 
 ## MaintQA Benchmark
 
-MaintQA is a question-answering benchmark for maintainability engineering design handbooks, comprising 1,812 samples (1,114 training + 698 evaluation) across the MIL-HDBK-470A splits shipped here (`train_mil470a_highconf`, `test_mil470a_88/200/500`, `task2`, `task3`). See `data/maintqa/` for the dataset files.
+MaintQA is a question-answering benchmark for maintainability engineering design handbooks, comprising 1,812 samples (1,114 training + 698 evaluation) across eight splits. The files here cover the MIL-HDBK-470A splits (`train_mil470a_highconf`, `test_mil470a_88/200/500`, `task2`, `task3`) and the cross-handbook DOD-HDBK-791 split (`test_dod791_30`). See `data/maintqa/README.md` for the split inventory, field-level schema, and overlap notes; the cross-language GJB 451B split is excluded due to source-document redistribution restrictions.
 
 ## Cross-Lingual Support (CJK Regex Patterns)
 
